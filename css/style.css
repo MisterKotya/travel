@@ -59,10 +59,10 @@ body {
     padding-top: 56px;
  }
  .header_list {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-transition: all 0.5s ease-in-out 3s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out 3s;
  }
 .header_link {
      text-decoration: none;
@@ -88,4 +88,44 @@ transition: all 0.5s ease-in-out 3s;
     height: 100vh;
     background: url(../img/jpg/Hero.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
+    
+}
+.intro_title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 619px;
+    margin-bottom: 22px;
+}
+.intro_subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 546px;
+    color: #FFFFFF;
+    margin-bottom: 59px;
+}
+.search_worm_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-form_field {
+    background: transparent url(../img/svg/oval.svg) no-repeat left top;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.search-form_field::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
 }
