@@ -85,7 +85,7 @@ body {
     margin-right: 82px;
 }
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/jpg/Hero.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
@@ -112,10 +112,10 @@ body {
     flex-wrap: wrap;
 }
 .search-form_field {
-    background: transparent url(../img/svg/oval.svg) no-repeat left top;
+    background: transparent url(../img/svg/oval.svg) no-repeat left 6px;
     background-size: 20px;
     border: 0;
-    border-bottom: 2px solid #BFC0C5;
+    border-bottom: 2px solid white;
     margin-right: 60px;
     width: 297px;
     padding-left: 43px;
@@ -128,4 +128,22 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
+}
+.search_form_submite {
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background: #1B7DFF;
+    border: 0;
+}
+.search_form_submite:hover {
+    background: #1B7DFF;
+} 
+.search_form_submite:active {
+    background: #629DEC;
+}
+.search_form_submite:focus {
+    background: #629DEC;
 }
