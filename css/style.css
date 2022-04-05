@@ -348,8 +348,60 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 108px;
     align-items: center;
+    margin-bottom: 77px;
 }
-.tour__info {
-    
+.tour__info{
+    padding-left: 47px;
+}
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;  
+}
+.tour__desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+.tour__more {
+    font-size: 16px;
+    padding-right: 59px;
+    text-decoration: none;
+    color: #006DFE;
+    background: url(../img/svg/arrow-right-icon.svg) no-repeat right center;
+}
+.tour__more:hover, .tour__more:focus {
+    transform: scale(1.05);
 }
 /*Tours end*/
+
+/*Top places style stat*/
+
+.top {
+    margin-bottom: 86px;
+}
+.top__title {
+    margin-bottom: 54px;
+} 
+.top__cards  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+.top__card-pic {
+    position: relative;   
+}
+.top__card-stats {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+}
+.top__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+/*Top places style end*/
